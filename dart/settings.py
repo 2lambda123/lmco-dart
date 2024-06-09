@@ -160,6 +160,7 @@ LOGGING = {
 
 REPORT_TEMPLATE_PATH = os.path.join(BASE_DIR, '2016_Template.docx')
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField' 
+SESSION_COOKIE_SECURE = True
 
 # Require an interstitial message to be displayed
 #
